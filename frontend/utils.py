@@ -1,6 +1,6 @@
 import requests
 
-base_url = 'https://localhost:'
+base_url = 'http://localhost:'
 auth_url = base_url + '5001/auth'
 messages_url = base_url + '5002/messages'
 

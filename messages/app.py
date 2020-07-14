@@ -16,9 +16,9 @@ def greeting(message_id):
     print(message_id)
     return json.dumps(messages[message_id])
 
-@app.route('/messages/add')
-def messages_add():
-    add_message()
+@app.route('/messages/add/<string:message>')
+def messages_add(message):
+    add_message(message)
 
 if __name__ == "__main__":
     app.run(port=5002)

@@ -5,6 +5,7 @@ Chat del equipo 3
 - `python -m venv .`
 - `Scripts\activate.bat`
 - `python -m pip install flask requests`
+- `python -m pip install pymongo`
 
 ## Iniciar las apps con 3 consolas diferentes 
 - Frontend

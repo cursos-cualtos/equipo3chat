@@ -1,11 +1,15 @@
 # equipo3chat
 Chat del equipo 3
 
+## Librerías de python instaladas
+- `python -m pip install flask`
+- `python -m pip install requests`
+- `python -m pip install pymongo`
+- `python -m pip install ibm_watson`
+
 ## Comandos utilizados en la carpeta raíz
 - `python -m venv .`
 - `Scripts\activate.bat`
-- `python -m pip install flask requests`
-- `python -m pip install pymongo`
 
 ## Iniciar las apps con 3 consolas diferentes 
 - Frontend

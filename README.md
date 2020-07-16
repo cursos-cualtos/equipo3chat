@@ -6,6 +6,7 @@ Chat del equipo 3
 - `python -m pip install requests`
 - `python -m pip install pymongo`
 - `python -m pip install ibm_watson`
+- `pyhton -m pip install cloudant`
 
 ## Comandos utilizados en la carpeta raíz
 - `python -m venv .`

@@ -24,3 +24,13 @@ Chat del equipo 3
 - Mensajes
     - `set FLASK_APP=messages\app.py`
     - `flask run --port=5002`
+
+## Subir la app a IBMCloud
+- Archivos necesarios
+    - manifest.yml
+    - Procfile
+    - requirements.txt
+- Comandos
+    - `ibmcloud login`
+    - `ibmcloud target --cf`
+    - `ibmcloud cf push`
